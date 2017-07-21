@@ -12,11 +12,11 @@ The koans use the [Qunit](http://qunitjs.com/) test syntax and test runner.
 Get started with Ryan Anklam's [Learn JavaScript completely On the Cloud With the JavaScript Koans and Cloud9 IDE](http://blog.bittersweetryan.com/2011/08/learn-some-javascript-completely-on.html)
 
 Getting Started
-==============
+===============
 
-Open in your browser the `jskkoans.htm` and start replacing the `__` in the files from `topics\`.
+Open in your browser the `jskkoans.htm` and start replacing the `__` in the files from `topics/`.
 
-For example, if we edit `topics\about_asserts.js`, changing `__` by `true`, like the following snippet.
+For example, if we edit `topics/about_asserts.js`, changing `__` by `true`, like the following snippet:
 
 ```javascript
     module("About Asserts (topics/about_asserts.js)");
@@ -25,4 +25,4 @@ For example, if we edit `topics\about_asserts.js`, changing `__` by `true`, like
         ok(true === true, 'what will satisfy the ok assertion?');
     });
 ```
-After saving our changes we should be able to see that the first test passed in the page `jskoans.htm`.
+After saving our changes we should be able to see in `jskoans.htm` that the first test passed.. Wohoo!!
